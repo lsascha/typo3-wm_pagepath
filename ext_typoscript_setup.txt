@@ -1,0 +1,35 @@
+
+api_contest = PAGE
+api_contest {
+	typeNum = 1535550436
+
+	config {
+		disableAllHeaderCode = 1
+		additionalHeaders = Content-type:text/plain
+		xhtml_cleaning = 0
+		admPanel = 0
+		debug = 0
+		no_cache = 1
+	}
+
+	10 = USER
+	10 {
+	    userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+	    extensionName = WmPagepath
+	    pluginName = Pagepath
+	    vendorName = Webmatch
+	    controller = Pagepath
+	    action = link
+	    switchableControllerActions {
+			Pagepath {
+	            1 = link
+	        }
+	    }
+	    #view =< plugin.tx_wmsungewinnspiel_fesungewinnspiel.view
+	    #persistence =< plugin.tx_wmsungewinnspiel_fesungewinnspiel.persistence
+	    #settings =< plugin.tx_wmsungewinnspiel_fesungewinnspiel.settings
+	    features {
+	        requireCHashArgumentForActionArguments = 0
+	    }
+	}
+}
