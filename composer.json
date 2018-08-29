@@ -1,5 +1,5 @@
 {
-    "name": "webmatch/wm-pagepath",
+    "name": "lsascha/wm-pagepath",
     "type": "typo3-cms-extension",
     "description": "Generates Frontend URL from Backend",
     "authors": [
