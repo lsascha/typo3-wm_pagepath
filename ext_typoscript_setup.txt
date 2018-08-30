@@ -1,6 +1,6 @@
 
-api_contest = PAGE
-api_contest {
+api_wmpagepath = PAGE
+api_wmpagepath {
 	typeNum = 1535550436
 
 	config {
