@@ -1,7 +1,7 @@
 {
     "name": "lsascha/wm-pagepath",
     "type": "typo3-cms-extension",
-    "description": "Generates Frontend URL from Backend",
+    "description": "Generates Frontend URL from Backend in TYPO3",
     "authors": [
         {
             "name": "Sascha L\u00f6ffler",
